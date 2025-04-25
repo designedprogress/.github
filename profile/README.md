@@ -4,13 +4,13 @@ We are focused on AI applications, particularly novel approaches to the use of A
 
 # How we built our site
 
- We chose Svelte 5, a modern UI framework that preprocesses code at build time and supports strict TypeScript. Styling was handled using Tailwind CSS for rapid styling. shadcn-svelte components make up most of the page elements. We built with development tools like VS Code, Continue.Dev, Claude-Code, and GitHub to speed our workflow.
+ We chose Svelte 5, a UI framework that preprocesses code at build time and supports strict TypeScript. Styling was handled using Tailwind CSS for rapid styling. shadcn-svelte components make up most of the page elements, with a few custom components to support the Assistant, its state management and rate limiting. We built with development tools like VS Code, Continue.Dev, Claude-Code, and GitHub to speed our workflow.
 
-The AI assistant uses Vercel's AI SDK, OpenAI client and OpenAI text embeddings. We created a Retrieval-Augmented Generation (RAG) system that provides our Assistant with a curated knowledgebase of markdown files. The language model dynamically decides when and how to use this knowledge, requiring effective prompting. The RAG system stores knowledge chunks and vectors in a serverless Pinecone.io index, with metadata and links managed via YAML frontmatter in the markdown files. This setup ensures proper attribution and supports rule-based decisions based on content attributes during inference.
+The AI assistant uses Vercel's AI SDK, OpenAI client and OpenAI text embeddings. We created a Retrieval-Augmented Generation (RAG) system that provides our Assistant with a curated knowledgebase of markdown files that we think are important to the progress of the field. The language model dynamically decides when and how to use this knowledge, requiring effective prompting and a bit of agentic leeway. The RAG system stores text chunks and vectors in a serverless Pinecone.io index, with metadata and links managed via YAML frontmatter in the markdown files. This setup ensures proper attribution and supports rule-based decisions based on content attributes during inference.
 
 We also have a number of LLM server tools implemented for the LLM to call at inference time. These include one for knowledge base searches, one to collect customer contact info and messages via CRM and another to query the current status of the users rate limit. We have a number of other interesting tools in the works and we will roll those out over time.
 
- We plan to also explore emerging technologies like MCP integration, semantic routing, multimodal semantic tools, and voice-based interaction. These experiments will be showcased through the "Ask Us" Assistant and in our [Lab](https://designedprogress.ca/lab).
+We plan to also explore emerging technologies like MCP integration with headless commerce platforms, semantic routing, multimodal semantic tools and voice-based agent interaction. These experiments will be showcased through the "Ask Us" Assistant and in our [Lab](https://designedprogress.ca/lab) and when we can we'll share code here.
 
 ## Website Technology Overview
 
