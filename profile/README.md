@@ -1,6 +1,6 @@
 # Welcome
 
-We are focused on Ai integration, particularly novel approaches to the use of AI in customer facing applications. We'll be adding to the content hear and will share paractical tools and utilities we build.
+We are focused on AI applications, particularly novel approaches to the use of AI in customer facing applications. We'll be adding to the content and will share paractical tools and utilities we build from time to time.
 
 # How we built our site
 
