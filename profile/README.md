@@ -3,7 +3,12 @@
 # Welcome
 =======
 
-We are focused on AI applications, particularly new or innovative approaches to the use of AI in customer-facing applications. We'll be adding content and will share practical tools and utilities we build from time to time. You can visit us at [https://designedprogress.ca](https://designedprogress.ca/), feel free to connect.
+We are focused on AI applications, particularly new or innovative AI usage in customer-facing applications. We'll be adding content and will share practical tools and utilities we build from time to time. You can visit us at [https://designedprogress.ca](https://designedprogress.ca/), please feel free to connect with us via "Ask Us".
+
+# What we are currently working on
+=====================
+
+We are experimenting with and implementing new AI enabled experiences that make use OF LLM's as foundational capabilities, but we are keen to extend their utility. To that end we are doing work with agentic persisted state, knowledge driven interactive experiences via RAG and the use of LLM tool calling, either directly or via MCP. We are also very interested in the concept of "agentic proxies", effectively your digital avatar that can perform tasks on your behalf, with you in the middle curating and deciding on the flow of information and transactions. We have some ideas around what will be required to make that happen and we are excited to work on new uses of AI tech, particularly in industries like retail, hospitality and travel.
 
 # How we built our site
 =====================
